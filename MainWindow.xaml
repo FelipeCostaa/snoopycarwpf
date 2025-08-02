@@ -1,0 +1,13 @@
+﻿<Window x:Class="SnoopyCarWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Snoopy Car - Gestão" Height="350" Width="400" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Label Content="Snoopy Car" FontSize="32" FontWeight="Bold" HorizontalAlignment="Center"/>
+            <Button x:Name="btnGerenciarClientes" Content="Gerenciar Clientes" Width="200" Height="40" Margin="10" Click="BtnGerenciarClientes_Click"/>
+            <Button x:Name="btnGerenciarProdutos" Content="Gerenciar Produtos" Width="200" Height="40" Margin="10" Click="BtnGerenciarProdutos_Click"/>
+            <Button x:Name="btnGerenciarAgendamentos" Content="Gerenciar Agendamentos" Width="200" Height="40" Margin="10" Click="BtnGerenciarAgendamentos_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
